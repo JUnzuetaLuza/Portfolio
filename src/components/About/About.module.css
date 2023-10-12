@@ -3,13 +3,13 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: grey;
     align-items: center;
 }
 
 .leftAbout {
     text-align: justify;
     margin: 3rem;
+    color: white;
 }
 .rightAbout {
     text-align: center;
