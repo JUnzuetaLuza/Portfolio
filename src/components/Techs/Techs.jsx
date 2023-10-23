@@ -1,5 +1,4 @@
 import css from "./Techs.module.css";
-import pic from "../../assets/ratge.png";
 
 export const Techs = () => {
     return (
