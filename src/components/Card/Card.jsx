@@ -10,3 +10,10 @@ export const Card = () => {
     )
 }
 
+const projectsData = [
+    {
+        name: 'GreenScreen',
+        img: pic,
+        skills: ['JavaScript', 'HTML', 'CSS', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
+    }
+]
