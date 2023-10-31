@@ -10,27 +10,27 @@ export const Techs = () => {
                     <section className={css.techs}>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"/>
-                        <a className={css.names}>React</a>
+                        <b className={css.names}>React</b>
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"/>
-                        <a className={css.names}>Redux</a>
+                        <b className={css.names}>Redux</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/>
-                        <a className={css.names}>HTML</a>
+                        <b className={css.names}>HTML</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"/>
-                        <a className={css.names}>CSS</a>
+                        <b className={css.names}>CSS</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
-                        <a className={css.names}>JavaScript</a>
+                        <b className={css.names}>JavaScript</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"/>
-                        <a className={css.names}>Bootstrap</a>
+                        <b className={css.names}>Bootstrap</b> 
                     </div>
                     </section>
                 </div>
@@ -39,15 +39,15 @@ export const Techs = () => {
                     <section className={css.techs}>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"/>
-                        <a className={css.names}>Node Js</a>
+                        <b className={css.names}>Node Js</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"/>
-                        <a className={css.names}>Express</a>
+                        <b className={css.names}>Express</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"/>
-                        <a className={css.names}>PostgreSQL</a>
+                        <b className={css.names}>PostgreSQL</b> 
                     </div>
                     </section>
                 </div>
@@ -56,11 +56,11 @@ export const Techs = () => {
                     <section className={css.techs}>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"/>
-                        <a className={css.names}>Photoshop</a>
+                        <b className={css.names}>Photoshop</b> 
                     </div>
                     <div className={css.mini}>
                         <img className={css.icons} src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
-                        <a className={css.names}>Git</a>
+                        <b className={css.names}>Git</b> 
                     </div>
                     </section>
                 </div>
