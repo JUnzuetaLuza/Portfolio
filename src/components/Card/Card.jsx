@@ -1,19 +1,18 @@
 import css from './Card.module.css';
-import pic from "../../assets/ratge.png";
 
-export const Card = () => {
+export const Card = (props) => {
     return (
         <div className={css.container}>
-            <h2 className={css.title}>GreenScreen</h2>
-            <img src={pic}/>
+            <h2 className={css.title}>{props.name}</h2>
+            <img src={props.img} className={css.image}/>
+            <div className={css.skillsCont}>
+                {props.skills.map((skill, index) => (
+                    <span key={index}>
+                        {skill}
+                        {index < props.skills.length - 1 ? '-' : ''}
+                    </span>
+                ))}
+            </div>
         </div>
     )
 }
-
-const projectsData = [
-    {
-        name: 'GreenScreen',
-        img: pic,
-        skills: ['JavaScript', 'HTML', 'CSS', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
-    }
-]
