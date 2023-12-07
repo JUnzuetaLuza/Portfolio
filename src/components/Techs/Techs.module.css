@@ -65,6 +65,10 @@
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
+    .techSpace {
+        width: 90vw;
+    }
 }
 
 
