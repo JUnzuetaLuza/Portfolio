@@ -1,7 +1,10 @@
 import css from "./About.module.css";
 import pic from "../../assets/ratge.png";
+import { useMediaQuery } from 'react-responsive';
 
 export const About = () => {
+    const isMobile = useMediaQuery({ maxWidth: 767 });
+
     return (
         <div className={css.container}>
             <div className={css.leftAbout}>
@@ -13,6 +16,7 @@ export const About = () => {
             <div className={css.rightAbout}>
                 <img className={css.imgProfile} src={pic}/>
             </div>
+            
         </div>
     )
 }
