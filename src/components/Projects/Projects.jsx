@@ -33,6 +33,11 @@ const projectsData = [
         skills: ['JavaScript', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
     },
     {
+        name: 'Videogames',
+        img: ratPic,
+        skills: ['JavaScript, ReactJS', 'Redux', 'CRUD', 'PostgreSQL', 'Sequilize']
+    },
+    {
         name: 'ErrorPage',
         img: ratPic,
         skills: ['Work in progress']
