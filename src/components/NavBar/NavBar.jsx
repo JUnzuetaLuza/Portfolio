@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     return (
-        <>
         <div className={css.container}>
             <div className={css.rightSide}>
                 <h1 className={css.mainLogo}>José Unzueta</h1>
@@ -23,6 +22,5 @@ export const NavBar = () => {
                 <a href='../../assets/CV - English.pdf' download><img className={css.imgsNav} src={cvLogo}/></a>
             </div>
         </div>
-        </>
     )
 }
