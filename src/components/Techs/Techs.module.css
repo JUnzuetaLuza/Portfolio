@@ -62,9 +62,6 @@
 }
 
 @media (max-width: 768px) {
-    .container{
-        margin: 5em 0;
-    }
     .contFlex {
         flex-wrap: nowrap;
         flex-direction: column;

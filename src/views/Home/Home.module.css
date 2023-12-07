@@ -5,3 +5,8 @@
 body {
     background: linear-gradient(135deg, #500000, #500050);
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
