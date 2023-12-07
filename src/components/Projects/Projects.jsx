@@ -30,7 +30,7 @@ const projectsData = [
     {
         name: 'GreenScreen',
         img: greenscreenPic,
-        skills: ['JavaScript', 'HTML', 'CSS', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
+        skills: ['JavaScript', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
     },
     {
         name: 'Rat-Do',
