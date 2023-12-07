@@ -2,6 +2,8 @@ import css from './NavBar.module.css';
 import linkedinLogo from "../../assets/linkedin-logo.png";
 import githubLogo from "../../assets/github-logo.png";
 import cvLogo from "../../assets/cv-logo.png";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     return (
@@ -11,9 +13,9 @@ export const NavBar = () => {
                 <h1 className={css.mainLogo}>José Unzueta</h1>
             </div>
             <div className={css.middleSide}>
-                <button className={css.buttonNav} href="#about">About</button>
-                <button className={css.buttonNav} href="#skills">Skills</button>
-                <button className={css.buttonNav} href="#projects">Projects</button>
+                <a className={css.buttonNav} href="#aboutSec">About</a>
+                <a className={css.buttonNav} href="#techsSec">Techs</a>
+                <a className={css.buttonNav} href="#projectsSec">Projects</a>
             </div>
             <div className={css.rightSide}>
                 <a href='https://www.linkedin.com/in/jos%C3%A9-unzueta-21689126a/'><img className={css.imgsNav} src={linkedinLogo}/></a>

@@ -3,14 +3,15 @@ import { About } from '../../components/About/About';
 import { Techs } from '../../components/Techs/Techs';
 import { Projects } from '../../components/Projects/Projects';
 import css from './Home.module.css';
+import React from 'react';
 
 export const Home = () => {
     return (
         <>
         <NavBar/>
-        <About/>
-        <Techs/>
-        <Projects/>
+        <section id="aboutSec"><About/></section>
+        <section id="techsSec"><Techs/></section>
+        <section id="projectsSec"><Projects/></section>
         </>
     )
 }

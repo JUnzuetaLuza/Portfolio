@@ -21,6 +21,7 @@
 }
 
 .buttonNav {
+    text-decoration: none;
     background: transparent;
     margin: 0 0.5rem;
     border: none;
