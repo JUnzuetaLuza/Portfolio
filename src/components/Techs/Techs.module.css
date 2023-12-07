@@ -7,6 +7,7 @@
     align-items: center;
     text-align: center;
     color: white;
+    margin: 1em 0;
 }
 
 .contFlex {
@@ -61,11 +62,13 @@
 }
 
 @media (max-width: 768px) {
+    .container{
+        margin: 5em 0;
+    }
     .contFlex {
         flex-wrap: nowrap;
         flex-direction: column;
     }
-
     .techSpace {
         width: 90vw;
     }

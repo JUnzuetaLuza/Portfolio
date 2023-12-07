@@ -7,9 +7,16 @@
     align-items: center;
     text-align: center;
     color: white;
+    margin: 1em 0;
 }
 
 .title {
     font-size: 3rem;
     margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin: 5em 0;
+    }
 }
