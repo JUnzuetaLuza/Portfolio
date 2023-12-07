@@ -5,10 +5,10 @@
     align-items: center;
     border: 0.5rem solid #00000040;
     border-radius: 1%;
-    height: 75vh;
+    height: auto;
     width: 20em;
     padding: 5%;
-    gap: 2%;
+    gap: 1em;
     background-color: #00000080;
 }
 
