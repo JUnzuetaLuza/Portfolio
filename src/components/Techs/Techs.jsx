@@ -4,7 +4,7 @@ export const Techs = () => {
 
     return (
         <div className={css.container}>
-            <h1 className={css.title}>Skills</h1>
+            <h1 className={css.title}>Techs</h1>
             <div className={css.contFlex}>
                 <div className={css.techSpace}>
                     <h2 className={css.subtitle}>Frontend</h2>
