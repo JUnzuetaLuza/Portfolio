@@ -26,6 +26,7 @@
 }
 
 .techSpace{
+    height: auto;
     width: 35em;
     justify-self: center;
     border: 0.25rem solid #500050;
@@ -38,6 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1em;
 }
 
 .mini {
@@ -52,9 +54,10 @@
     justify-content: center;
 }
 .icons {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 4rem;
+    width: 4rem;
     margin: 0 0.5rem;
+    filter: drop-shadow(0.5em 0.5em 0.5rem #000000)
 }
 .names {
     font-size: 1.5rem;
