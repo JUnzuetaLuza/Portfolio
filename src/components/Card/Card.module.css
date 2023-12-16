@@ -1,21 +1,22 @@
 .container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    background-color: #00000080;
     border: 0.5rem solid #00000040;
     border-radius: 1%;
-    height: auto;
+    height: 30em;
     width: 20em;
-    padding: 5%;
     gap: 1em;
-    background-color: #00000080;
+    color: white;
 }
 
 .title {
     margin: 0;
-    width: 100%;
-    color: white;
+    padding: 0.1em 0;
+    width: 80%;
     font-size: 2rem;
     font-weight: 400;
     border: 0.25rem outset black;
@@ -24,13 +25,14 @@
 .image {
     max-width: 100%;
     height: auto;
+    width: 80%;
     border: 0.25rem outset black;
 }
 
 .skillsCont {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     height: 6em;
     border: 0.25rem outset black;
     justify-content: center;

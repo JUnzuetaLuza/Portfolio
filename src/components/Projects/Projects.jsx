@@ -6,23 +6,21 @@ import { Carousel } from "react-bootstrap";
 
 export const Projects = () => {
     return (
+        <>
+        <h2 className={css.title}>Projects</h2>
         <div className={css.container}>
-            <h1 className={css.title}>Projects</h1>
-            <Carousel pause='hover' interval={5000}>
             {
                 projectsData.map((data) => {
                     return (
-                        <Carousel.Item>
-                            <Card 
-                                name={data.name} 
-                                img={data.img} 
-                                skills={data.skills}/>
-                        </Carousel.Item>
+                        <Card 
+                            name={data.name} 
+                            img={data.img} 
+                            skills={data.skills}/>
                     )
                 })
             }
-            </Carousel>
         </div>
+        </>
     )
 }
 
@@ -30,12 +28,12 @@ const projectsData = [
     {
         name: 'GreenScreen',
         img: greenscreenPic,
-        skills: ['JavaScript', 'ReactJS', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
+        skills: ['JavaScript', 'React', 'Redux', 'Node.js', 'PostgreSQL', 'REST API']
     },
     {
         name: 'Videogames',
         img: ratPic,
-        skills: ['JavaScript, ReactJS', 'Redux', 'CRUD', 'PostgreSQL', 'Sequilize']
+        skills: ['JavaScript, React', 'Redux', 'Sequilize', 'PostgreSQL', 'REST API']
     },
     {
         name: 'ErrorPage',
