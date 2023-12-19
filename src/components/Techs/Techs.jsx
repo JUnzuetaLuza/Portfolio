@@ -3,7 +3,7 @@ import css from "./Techs.module.css";
 export const Techs = () => {
 
     return (
-        <div className={css.container}>
+        <section id="techsSec" className={css.container}>
             <h1 className={css.title}>Techs</h1>
             <div className={css.contFlex}>
                 <div className={css.techSpace}>
@@ -33,6 +33,6 @@ export const Techs = () => {
                     </section>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

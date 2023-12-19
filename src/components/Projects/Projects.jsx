@@ -6,7 +6,7 @@ import { Carousel } from "react-bootstrap";
 
 export const Projects = () => {
     return (
-        <>
+        <section id="projectsSec">
         <h2 className={css.title}>Projects</h2>
         <div className={css.container}>
             {
@@ -20,7 +20,7 @@ export const Projects = () => {
                 })
             }
         </div>
-        </>
+        </section>
     )
 }
 

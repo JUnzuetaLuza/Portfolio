@@ -8,10 +8,10 @@ import React from 'react';
 export const Home = () => {
     return (
         <div className={css.container}>
-        <NavBar/>
-        <section id="aboutSec"><About/></section>
-        <section id="techsSec"><Techs/></section>
-        <section id="projectsSec"><Projects/></section>
+            <NavBar/>
+            <About/>
+            <Techs/>
+            <Projects/>
         </div>
     )
 }
