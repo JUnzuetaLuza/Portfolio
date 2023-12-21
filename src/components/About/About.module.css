@@ -28,7 +28,7 @@
     font-weight: 800;
 }
 .imgProfile {
-    justify-content: center;
+    justify-self: center;
 }
 
 @media (max-width: 768px) {
